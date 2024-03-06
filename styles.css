@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: #182854;
+    width: 100%;
+    position: fixed;
+}
+
+#logo {
+    height: 90px;
+    width: 140px;
+    margin-top: 10px;
+}
+
+.ancoras {
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+}
+
+#span-inicial {
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+#span-prox {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.1rem;
+    transition: 0.5s;
+}
+
+#span-prox:hover {
+    color: #fff;
+}
+
+.pai-copys {
+    padding-top: 90px;
+    height: 100vh;
+    background-color: #182854;
+}
+
+.copys {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+#copy1-1 {
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+}
+
+#copy1-2 {
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+}
+
+.copysh2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#copy2-1 {
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+}
+
+#copy2-2 {
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+}
+
+#copy2-2::before {
+    content: 'Na GLX, ';
+    color: #c90e0e;
+}
+
+
+#button-saiba-como {
+    margin-top: 40px;
+    width: 240px;
+    height: 45px;
+    background-color: #c90e0e;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #fff;
+    border-radius: 6px;
+    border: 0;
+    cursor: grab;
+    transition: 0.6s;
+}
+
+#button-saiba-como:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.beneficios {
+    height: 700px;
+
+}
+
+
+.div-copy-escolha {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+#copy3-1 {
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.beneficios {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.sites-personalizados {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 200px;
+}
+
+#icone {
+    font-size: 3rem;
+    margin-right: 20px;
+    color: aquamarine;
+}
+
+#copy4-1 {
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+}
+
+#copy4-2 {
+    font-size: 20px;
+    width: 40%;
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+}
+
+#copy4-2::after {
+    content: ' extensão da sua marca.';
+    font-family: 'Work Sans', sans-serif;
+    color: #c90e0e;
+}
+
+#copy4-3 {
+    font-size: 20px;
+    width: 40%;
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+}
+
+#copy4-3::after {
+    content: ' Aumente seu tráfego e suas vendas.';
+    font-family: 'Work Sans', sans-serif;
+    color: #c90e0e;
+}
+
+#copy4-4 {
+    font-size: 20px;
+    width: 40%;
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+}
+
+#copy4-4::after {
+    content: ' investimento.';
+    font-family: 'Work Sans', sans-serif;
+    color: #c90e0e;
+}
+
+.pai-beneficios {
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://img.freepik.com/vetores-gratis/fundo-de-banner-de-tecnologia-com-formas-hexagonais-e-espaco-de-texto_1017-22589.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.pai-como-sera {
+    display: flex;
+}
+
+.como-sera {
+    background-color: #fff;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#copy5-1 {
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    font-size: 38px;
+    width: 70%;
+}
+
+#copy5-1::after {
+    content: ' lugar certo.';
+    color: #c90e0e;
+    font-family: 'Roboto Slab', serif;
+    font-size: 38px;
+}
+
+#copy5-2 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    width: 100%;
+}
+
+#banner-como-sera {
+    height: 500px;
+    width: 900px;
+    margin-right: 200px;
+}
+
+.pai-planos {
+    background-color: #182854;
+    height: 500px;
+    margin-top: 100px;
+}
+
+.copy-planos {
+    display: flex;
+    justify-content: center;
+}
+
+#copy6-1 {
+    font-family: 'Roboto Slab', serif;
+    margin-top: 50px;
+    color: #fff;
+}
+
+#copy7-1 {
+    margin-left: 180px;
+    margin-top: 100px;
+    color: aliceblue;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 22px;
+}
+
+#copy7-2 {
+    margin-top: 100px;
+    color: aliceblue;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+.planos {
+    display: flex;
+}
+
+#seta {
+    height: 170px;
+    width: 280px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+#i2 {
+    margin-top: 87px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+footer {
+    height: 200px;
+    background-color: #182854;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.div-icones-footer {
+    display: flex;
+    justify-content: flex-end;
+    width: 600px;
+}   
+
+#icone2 {
+    font-size: 2.3rem;
+    color: cyan;
+    width: 45px;
+}
+
+a {
+    cursor: grab;
+}
+
+.textos-footer {
+    color: aliceblue;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+    margin-left: 430px;
+}
